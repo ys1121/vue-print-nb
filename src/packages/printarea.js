@@ -31,6 +31,8 @@ export default class {
 
   }
   print(PAWindow) {
+    alert("测试数据");
+    console.log("888888888888888888888888888");
     let paWindow = PAWindow.win;
     const _loaded = () => {
       paWindow.focus();
