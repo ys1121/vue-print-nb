@@ -21,6 +21,7 @@ export default class {
     this.init();
   }
   init() {
+    alert("测试数据");
     this.counter++;
     this.settings.id = `printArea_${this.counter}`;
     let PrintAreaWindow = this.getPrintWindow(); // 创建iframe
